@@ -1,0 +1,82 @@
+import { type Experience } from "@/components/Experience/ExperienceContent";
+
+export const experiences: Experience[] = [
+  {
+    company: "Ryt Bank",
+    position: "Frontend Engineer Intern",
+    duration: "April 2025 — October 2025",
+    location: "Kuala Lumpur",
+    description: [
+      "Developed and optimized fintech mobile applications with a focus on user experience, performance, and feature reliability",
+      "Delivered 199+ commits in 3 months, contributing to key improvements in the bank's mobile platform",
+      "Created proof of concepts (POCs) for interactive graph visualizations, tackling challenges around dynamic width and height for responsive layouts",
+      "Built reusable design system components, ensuring consistent styling and behavior across the app",
+      "Integrated analytics and user behavior tracking, enabling data-driven decision-making for product enhancements",
+      "Collaborated closely with product managers, backend engineers, and UI/UX designers to deliver features aligned with business goals",
+      "Utilized React Native and Expo to ship production-ready features in an agile environment",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "JavaScript",
+      "Mobile Development",
+      "Analytics",
+    ],
+  },
+  {
+    company: "ON2IT SDN BHD",
+    position: "Software Development Engineer",
+    duration: "April 2024 — April 2025",
+    location: "Shah Alam",
+    description: [
+      "Developed and maintained enterprise-grade solutions for the GEBME project, enhancing both the admin portal and point-of-sale (POS) system features",
+      "Implemented and optimized core functionalities using Spring MVC, Java, AngularJS, and HTML, ensuring a seamless and responsive user experience",
+      "Led the CI/CD pipeline setup for POS system deployment, streamlining release cycles and improving deployment reliability and scalability",
+      "Executed end-to-end implementation and rollout of the GEBME POS system across multiple environments with a focus on uptime and fault tolerance",
+      "Worked closely with cross-functional teams in an Agile/Scrum environment, managing project tasks and progress through Jira",
+      "Collected and analyzed user feedback, driving iterative improvements that directly enhanced system usability and operational performance",
+    ],
+    technologies: ["Spring MVC", "Java", "AngularJS", "HTML", "CI/CD", "Jira"],
+  },
+  {
+    company: "Dell Technologies",
+    position: "Undergraduate Intern",
+    duration: "August 2023 — November 2023",
+    location: "Cyberjaya",
+    description: [
+      "Resolved network outages by conducting root cause analysis and implementing corrective actions as part of incident management",
+      "Used tools like ServiceNow, Cisco, and NetBrain to track and manage incidents while maintaining compliance protocols",
+      "Collaborated with global teams to improve infrastructure monitoring and SSH access reliability",
+      "Created internal documentation and training resources to streamline incident resolution and support team operations",
+    ],
+    technologies: [
+      "ServiceNow",
+      "Cisco",
+      "NetBrain",
+      "Network Management",
+      "SSH",
+      "Documentation",
+    ],
+  },
+  {
+    company: "myQuickHR Sdn. Bhd.",
+    position: "Undergraduate Intern",
+    duration: "January 2020 — March 2020",
+    location: "Kuala Lumpur",
+    description: [
+      "Built functional chat interfaces using Google Dialogflow, enhancing real-time user engagement and support on client websites",
+      "Designed and developed interactive e-learning modules with Articulate 360, leveraging text-to-speech and trigger-based logic to deliver dynamic, accessible learning experiences",
+      "Executed thorough testing and debugging across mobile platforms, resulting in noticeable improvements in performance and reliability",
+      "Worked closely with designers, product managers, and stakeholders to gather requirements and deliver user-focused solutions",
+      "Continuously iterated on features based on user feedback, driving measurable increases in engagement and satisfaction",
+    ],
+    technologies: [
+      "Google Dialogflow",
+      "Articulate 360",
+      "Mobile Testing",
+      "User Experience",
+      "Testing & Debugging",
+    ],
+  },
+];
